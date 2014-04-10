@@ -1,4 +1,7 @@
 {
     "name": "pocket-rent/ext-pgsql",
-    "type": "extension"
+    "type": "extension",
+    "provide": {
+        "ext-pgsql": "self.version"
+    }
 }
